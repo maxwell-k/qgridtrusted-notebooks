@@ -3,8 +3,7 @@
 Commands to start the demo:
 
     python3.11 -m venv --upgrade-deps .venv \
-    && .venv/bin/python -m pip install --requirement requirements.txt \
-    && .venv/bin/python -m nbclassic.nbextensions enable --py --sys-prefix qgrid
+    && .venv/bin/python -m pip install --requirement requirements.txt
 
 Command to run the demo notebook:
 
